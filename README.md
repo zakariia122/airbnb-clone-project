@@ -68,5 +68,25 @@ Avis et évaluations
 Les utilisateurs peuvent laisser des avis et des notes après leur séjour Cela aide les autres à faire un choix plus éclairé
 
 
+Sécurité de l’API
+
+Authentification
+Le système vérifie l’identité de chaque utilisateur pour s’assurer que seules les personnes autorisées accèdent à leur compte
+
+Autorisation
+Chaque utilisateur a des droits d’accès spécifiques et ne peut pas consulter ou modifier des ressources qui ne lui appartiennent pas
+
+Limitation des requêtes
+Un système limite le nombre de requêtes envoyées par un utilisateur dans un temps donné pour éviter les attaques par surcharge
+
+Chiffrement des données
+Les données sensibles comme les mots de passe et les informations de paiement sont chiffrées pour garantir leur confidentialité
+
+Sécurisation des paiements
+Les transactions financières passent par des plateformes de paiement sécurisées pour garantir la protection des utilisateurs
+
+
+
+
 
 
