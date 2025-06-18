@@ -50,4 +50,23 @@ Reviews
 Champs : id, user_id, property_id, note, commentaire, date
 Relation : un utilisateur peut laisser plusieurs avis sur différentes propriétés
 
+Feature Breakdown
+
+Gestion des utilisateurs
+Les utilisateurs peuvent s’inscrire se connecter gérer leur profil et consulter leurs réservations
+
+Gestion des propriétés
+Les utilisateurs peuvent ajouter modifier ou supprimer des propriétés à louer Chaque propriété contient des informations comme le titre l’adresse le prix et les photos
+
+Système de réservation
+Les utilisateurs peuvent réserver une propriété pour une période donnée Le système vérifie la disponibilité et enregistre la réservation
+
+Paiements sécurisés
+Les utilisateurs peuvent payer leurs réservations via une méthode de paiement fiable Chaque paiement est lié à une réservation
+
+Avis et évaluations
+Les utilisateurs peuvent laisser des avis et des notes après leur séjour Cela aide les autres à faire un choix plus éclairé
+
+
+
 
