@@ -86,6 +86,18 @@ Sécurisation des paiements
 Les transactions financières passent par des plateformes de paiement sécurisées pour garantir la protection des utilisateurs
 
 
+CI CD Pipeline
+
+Le projet utilise l’intégration continue et le déploiement continu pour automatiser le processus de développement
+
+À chaque modification du code le système effectue automatiquement des tests et déploie les nouvelles versions sans intervention manuelle
+
+Des outils comme GitHub Actions et Docker permettent de simplifier ce processus et de garantir une livraison rapide fiable et sans erreurs
+
+Ce pipeline améliore la productivité réduit les bugs et assure une meilleure gestion du cycle de vie du logiciel
+
+
+
 
 
 
