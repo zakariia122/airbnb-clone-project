@@ -26,3 +26,28 @@ J’ai mis en place l’automatisation du déploiement à l’aide d’outils co
 
 QA Engineer  
 J’ai testé les différentes fonctionnalités pour assurer la qualité et la stabilité de l’application.
+Database Design
+
+Le projet utilise une base de données relationnelle (MySQL) structurée autour de plusieurs entités principales :
+
+Users
+Champs : id, nom, email, mot de passe, date d’inscription
+Relation : un utilisateur peut avoir plusieurs propriétés et plusieurs réservations
+
+Properties
+Champs : id, titre, description, adresse, prix, user_id
+Relation : une propriété appartient à un seul utilisateur et peut recevoir plusieurs réservations
+
+Bookings
+Champs : id, user_id, property_id, date_debut, date_fin, statut
+Relation : une réservation est liée à un utilisateur et une propriété
+
+Payments
+Champs : id, booking_id, montant, statut, date
+Relation : chaque paiement est associé à une réservation
+
+Reviews
+Champs : id, user_id, property_id, note, commentaire, date
+Relation : un utilisateur peut laisser plusieurs avis sur différentes propriétés
+
+
