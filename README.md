@@ -97,6 +97,21 @@ Des outils comme GitHub Actions et Docker permettent de simplifier ce processus 
 Ce pipeline améliore la productivité réduit les bugs et assure une meilleure gestion du cycle de vie du logiciel
 
 
+Technology Stack
+
+Django  
+Framework web utilisé pour construire les APIs REST et gérer la logique serveur
+
+MySQL  
+Base de données relationnelle utilisée pour stocker les données des utilisateurs propriétés réservations et paiements
+
+Docker  
+Outil de conteneurisation permettant d’assurer la cohérence entre environnement de développement et production
+
+GitHub Actions  
+Plateforme d’intégration continue et de déploiement automatique pour garantir qualité et rapidité de livraison
+
+
 
 
 
